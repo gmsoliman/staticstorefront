@@ -1,0 +1,214 @@
+/*Common Elements*/
+body{
+    background: url(./assets/whitebrickbackground.jpg) fixed;
+}
+
+h1{
+    text-align: center;
+    color: #39a163;
+    font-family: 'Amatic SC', Arial, Helvetica, sans-serif; 
+    font-size:10em;
+    padding: 0;
+    margin: 0;
+}
+.allContent{
+    position: relative;
+    min-height: 200vh;
+}
+#contentWrapper{
+    margin: 0 auto;
+    max-width: 2000px;
+    padding: 0 3.0em;
+}
+
+/*Header*/
+.title{
+    background: url(./assets/header-background.jpg) center 0px;
+    background-size: cover;
+    padding: 0;
+    margin: -0.5em -0.5em 0 -0.5em;
+}
+.title img{
+    vertical-align: middle;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100px;
+}
+
+/*Navbar*/
+
+nav{
+    background-color: rgba(255, 119, 95, 0.9);
+    font-size: 1.7em;
+    letter-spacing: 0.04em;
+    padding: 0;
+    margin: 0 -0.5em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;    
+}
+nav ul li{
+    display: inline-block;
+    text-decoration: none;
+    list-style-type: none;
+    margin: 0;
+    padding: 0 50px 0 50px;
+}
+nav ul li img{
+    width: 2.3em;
+    height: 2.3em;
+    vertical-align: middle;
+}
+nav input{
+    border-radius: 5px;
+    border-style: hidden;
+    padding: 5px;
+    font-size: 1.0em;
+    opacity: 0.7;
+}
+nav input:focus{
+    outline: none;
+}
+
+/*Main Section*/
+.main{
+    width: 1000px;
+    float: right;
+    position: relative;
+    display: block;
+    background-color: rgb(255, 255, 255, 0.8);
+    padding: 1.5em;
+}
+.main h2{
+    font-family: 'Annie Use Your Telescope', Arial, Helvetica, sans-serif;
+    font-size: 2.5em;
+}
+#plantProducts{
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1.5em 3em 3em 3em;
+    display: flex;
+    flex-wrap: wrap;
+}
+section button{
+    background: rgba(255, 255, 255, 0.5);
+    border: hidden;
+    padding: 8px 75px;
+    font-family: 'Luckiest Guy', Arial, Helvetica, sans-serif;
+    font-size: 2.0em;
+    color: white;
+    text-shadow:    -1px 1px 0 rgba(126, 126, 126, 0.4),
+                    1px 1px 0 rgba(126, 126, 126, 0.4),
+                    1px -1px 0 rgba(126, 126, 126, 0.4),
+                    -1px -1px 0 rgba(126, 126, 126, 0.4);
+}
+section button:hover{
+    opacity: 0.6;  
+}
+.succulent{
+    background: url(./assets/succulents.jpg);
+    background-size: cover;
+    width: 400px;
+    height: 400px;
+}
+.flora{
+    background: url(./assets/flora.jpg);
+    background-size: cover;
+    width: 400px;
+    height: 400px;
+}
+.tropical{
+    background: url(./assets/tropicals.jpg);
+    background-size: cover;
+    width: 400px;
+    height: 400px;
+}
+.allPlants{
+    background: url(./assets/sale.jpg);
+    background-size: cover;
+    width: 400px;
+    height: 400px;
+}
+#otherProducts{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0 0 0 3em;
+}
+.soil{
+    background: url(./assets/soil.jpg);
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+}
+.tools{
+    background: url(./assets/tools.jpg);
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+}
+.planters{
+    background: url(./assets/potsandplanters.jpg);
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+}
+
+/*Side Section*/
+.plantOfTheDay{
+    width: 300px;
+    float: left;
+    position: relative;
+    display: block;
+    background-color: rgb(161, 255, 200, 0.8);
+    margin: 2em 1.5em;
+    padding: 1.7em 2.0em;
+}
+.plantOfTheDay h2{
+    font-family: 'Amatic SC', Arial, Helvetica, sans-serif;
+    font-size: 2em;
+    text-align: center;
+}
+.plantOfTheDay img{
+    width: 250px;
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.plantOfTheDay h3{
+    font-family: 'Annie Use Your Telescope', Arial, Helvetica, sans-serif;
+    font-size: 1.5em;
+    text-align: center;
+}
+.plantOfTheDay p{
+    font-family: 'Annie Use Your Telescope', Arial, Helvetica, sans-serif;
+    font-size: 1.5em;
+}
+article{
+    width: 300px;
+    float: left;
+    position: relative;
+    display: block;
+    background-color: rgb(161, 255, 200, 0.8);
+    margin: 1.5em 0 3.0em 1.5em;
+    padding: 1.7em 0.5em 2.0em 1.7em;
+}
+
+/*Footer*/
+#footer{
+    position: absolute;
+    bottom: 0;
+    width: 105%;
+    background-color: #093a19;
+    height: 5rem;
+    font-size: 1.2em;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+    text-align: center;
+}
+footer ul li{
+    display: inline-block;
+    padding: 0.5em;
+}
+
